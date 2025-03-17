@@ -1,0 +1,2 @@
+The following are multiple-answer questions (with answers). Each question may have a different number of correct choices. Use the provided context or passage to guide your reasoning if the context exists.
+Think step by step and then output the answer in the format of [X, Y, Z, ...] listing all applicable choices.

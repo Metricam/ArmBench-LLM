@@ -1,0 +1,2 @@
+You will be given initial parameters, data, or conditions, followed by a question that requires solving a problem based on them.
+Think step by step and then output the answer in the format of "The answer is (X)" at the end.

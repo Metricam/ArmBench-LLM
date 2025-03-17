@@ -1,0 +1,4 @@
+You are presented with a matching task. Match each item from Character Items to its corresponding item from Numeric Items. Character Items are: (Ա, Բ, Գ, ...). Numeric Items are: (1, 2, 3, ...). 
+Think step by step, considering each item and its possible matches.
+Return your answer as a set of key-value pairs where the keys are the items from Character Items and the values are the corresponding items from Numeric Items.
+Ensure that the output includes only the items listed in Character Items and that the number of keys in your output matches the number of items in Character Items. For example, if Character Items are (Ա, Բ, Գ), and Numeric Items are (1, 2, 3, 4, 5) the output should be {"Ա": 2, "Բ": 1, "Գ": 5}.

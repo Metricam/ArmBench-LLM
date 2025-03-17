@@ -1,0 +1,2 @@
+The following are multiple-choice questions (with answers). Use the provided context or passage to guide your reasoning if the context exists.
+Think step by step and then output the answer in the format of "The answer is (X)" at the end.

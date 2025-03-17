@@ -1,0 +1,2 @@
+The following is multiple-option question. Each question has exactly 6 options. For each option, decide whether it is {Ճիշտ է, Սխալ է, Չգիտեմ}. Use the provided context or passage to guide your reasoning if the context exists. 
+Think step by step and then output the answer in the format of ['Ճիշտ է', 'Սխալ է', 'Չգիտեմ', 'Ճիշտ է', 'Սխալ է', 'Ճիշտ է'].

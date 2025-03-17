@@ -1,0 +1,2 @@
+Arrange the following events in the modern history of Armenia in strict chronological order, from the earliest to the most recent. Provide the sequence of numbers corresponding to the events. Ensure the returned sequence has the same length as the number of events listed.
+Think step by step and return the answer in the following format, where the sequence of numbers is presented as a list of strings e.g. ['5', '3', '1', '2', '4']

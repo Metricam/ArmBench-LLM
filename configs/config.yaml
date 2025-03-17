@@ -1,0 +1,5 @@
+model_config: "configs/model_config.yaml"
+generation_config: "configs/generation_config.yaml"
+dataset_config: "configs/dataset_config.yaml"
+get_results: True
+batch_size: 8
