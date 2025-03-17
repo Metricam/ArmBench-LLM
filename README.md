@@ -1,10 +1,10 @@
-# Arm-LLM-Benchmark
+# ArmBench-LLM
 
 A comprehensive Armenian model evaluation framework for benchmarking large language models (LLMs).
 
 ## Overview
 
-Arm-LLM-Benchmark enables thorough evaluation of language models across multiple Armenian-specific and general datasets. The framework supports both VLLM optimization and Hugging Face's AutoModelForCausalLM for flexible evaluation options.
+ArmBench-LLM enables thorough evaluation of language models across multiple Armenian-specific and general datasets. The framework supports both VLLM optimization and Hugging Face's AutoModelForCausalLM for flexible evaluation options.
 
 ## Features
 
@@ -13,7 +13,7 @@ Arm-LLM-Benchmark enables thorough evaluation of language models across multiple
 - vLLM optimization for faster inference
 - Ability to resume interrupted evaluations
 - Comprehensive scoring system
-- Submit your model results to the [Arm-LLM-Benchmark](https://huggingface.co/spaces/Metric-AI/Arm-LLM-Benchmark) leaderboard
+- Submit your model results to the [ArmBench-LLM](https://huggingface.co/spaces/Metric-AI/ArmBench-LLM) leaderboard
 
 ## Getting Started
 
@@ -167,10 +167,10 @@ This will create a `results.json` file in the model's output directory with comp
 
 ### Step 3: Submit your results to the leaderboard
 
-After evaluating your model, you can submit your results to the [Arm-LLM-Benchmark](https://huggingface.co/spaces/Metric-AI/Arm-LLM-Benchmark) leaderboard by following these steps:
+After evaluating your model, you can submit your results to the [ArmBench-LLM](https://huggingface.co/spaces/Metric-AI/ArmBench-LLM) leaderboard by following these steps:
 
 1. Push your model and tokenizer to the Hugging Face Hub
-2. Add the `Arm-LLM-Benchmark` tag to your model repository
+2. Add the `ArmBench-LLM` tag to your model repository
 3. Include the `results.json` file in your repository
 
 **Important Submission Requirements:**
@@ -202,11 +202,11 @@ api.upload_file(
     repo_type="model",
     commit_message="Add ARM benchmark results"
 )
-model.push_to_hub(hub_repo_name, tags=['Arm-LLM-Benchmark'])
-tokenizer.push_to_hub(hub_repo_name, tags=['Arm-LLM-Benchmark'])
+model.push_to_hub(hub_repo_name, tags=['ArmBench-LLM'])
+tokenizer.push_to_hub(hub_repo_name, tags=['ArmBench-LLM'])
 ```
 
-After pushing your model with the `Arm-LLM-Benchmark` tag and `results.json` file that meets the submission requirements, your model will appear on the ArmBench leaderboard.
+After pushing your model with the `ArmBench-LLM` tag and `results.json` file that meets the submission requirements, your model will appear on the ArmBench leaderboard.
 
 ## Output Structure
 
@@ -264,7 +264,7 @@ Similarly, you can customize text generation by adding parameters to the generat
 
 ## Leaderboard
 
-Check out the current leaderboard at [Metric-AI/Arm-LLM-Benchmark](https://huggingface.co/spaces/Metric-AI/Arm-LLM-Benchmark) to see how your model compares to others on Armenian language tasks.
+Check out the current leaderboard at [Metric-AI/ArmBench-LLM](https://huggingface.co/spaces/Metric-AI/ArmBench-LLM) to see how your model compares to others on Armenian language tasks.
 
 ## Contributing
 
