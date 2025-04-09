@@ -41,7 +41,7 @@ def mmlu_pro_hy_processing(row):
     return pd.Series({'system_prompt': system_prompt, 'input_prompt': formatted_input_prompt})
 
 def load_mmlu_pro_hy():
-    df = load_dataset('Metric-AI/mmlu-pro-hy')['validation'].to_pandas()
+    df = load_dataset('Metric-AI/mmlu-pro-hy-test')['test'].to_pandas()
     df = df.rename(columns={'answer': 'label'})
     inputs = df.apply(mmlu_pro_hy_processing, axis=1)
     df = pd.concat([df, inputs], axis=1)
